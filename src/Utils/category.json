@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Goals",
+    "icon": "/src/assets/icon/goal.png",
+    "detail": "/src/assets/icon/chevron_right.png"
+  },
+  {
+    "name": "Popular Dishes",
+    "icon": "/src/assets/icon/popular-dishes.png",
+    "detail": "/src/assets/icon/chevron_right.png"
+  },
+  {
+    "name": "Menus",
+    "icon": "/src/assets/icon/total-revenue.png",
+    "detail": "/src/assets/icon/chevron_right.png"
+  }
+]
