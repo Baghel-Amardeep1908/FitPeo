@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import item from "../../Utils/dashboardHeader.json";
+
 import {
   CardContainer,
   CardContainerBottom,
@@ -22,7 +23,7 @@ const DashboardHeader = () => {
                 <p>{name}</p>
                 <CardContainerBottom>
                   <h1>{count}</h1>
-                  <h3
+                  <div
                     style={
                       growth < 0 ? { color: "#E74E56" } : { color: "#11C08E" }
                     }
@@ -32,7 +33,7 @@ const DashboardHeader = () => {
                     ) : (
                       <h3>&#9662;{growth}</h3>
                     )}
-                  </h3>
+                  </div>
                 </CardContainerBottom>
               </CardContainer>
             </div>

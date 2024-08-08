@@ -24,10 +24,10 @@ const RecentOrders = () => {
           </thead>
 
           <tbody>
-            {data.map((item) => {
+            {data.map((item, index) => {
               const { customer, orderNum, amount, status, image } = item;
               return (
-                <tr>
+                <tr key={index}>
                   <td
                     style={{
                       display: "flex",
@@ -37,7 +37,12 @@ const RecentOrders = () => {
                     <img
                       src={image}
                       alt=""
-                      style={{ height: 30, width: 30, borderRadius: "50%" }}
+                      style={{
+                        height: 30,
+                        width: 30,
+                        borderRadius: "50%",
+                        paddingRight: 20,
+                      }}
                     />
                     {customer}
                   </td>

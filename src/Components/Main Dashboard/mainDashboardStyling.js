@@ -38,7 +38,7 @@ export const MainContainer = styled.div`
 
 export const Header = styled.div`
   display: flex;
-  height: 18vh;
+  height: 10vh;
   background-color: #1f2029;
   align-items: center;
   width: 95vw;

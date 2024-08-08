@@ -7,10 +7,10 @@ const CustomerFeedback = () => {
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
       <h1>Customer's Feedback</h1>
 
-      {data.map((item) => {
+      {data.map((item, index) => {
         const { name, rating, comments, image } = item;
         return (
-          <>
+          <div key={index}>
             <h3 style={{ display: "flex", alignItems: "center", gap: 8 }}>
               <img
                 src={image}
@@ -29,18 +29,25 @@ const CustomerFeedback = () => {
                 .map((item, index) => {
                   if (index < rating) {
                     return (
-                      <span style={{ color: "#F9DD24", fontSize: 25 }}>
+                      <span
+                        style={{ color: "#F9DD24", fontSize: 25 }}
+                        key={index}
+                      >
                         &#9733;
                       </span>
                     );
                   }
-                  return <span style={{ fontSize: 25 }}>&#9733;</span>;
+                  return (
+                    <span style={{ fontSize: 25 }} key={index}>
+                      &#9733;
+                    </span>
+                  );
                 })}
             </div>
             <p style={{ paddingBottom: 5, borderBottom: "1px solid #2d2e37" }}>
               {comments}
             </p>
-          </>
+          </div>
         );
       })}
     </div>
