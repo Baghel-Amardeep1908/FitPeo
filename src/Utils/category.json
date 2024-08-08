@@ -1,17 +1,17 @@
 [
   {
     "name": "Goals",
-    "icon": "/FitPeo/src/assets/icon/goal.png",
-    "detail": "/FitPeo/src/assets/icon/chevron_right.png"
+    "icon": "src/icon/goal.png",
+    "detail": "src/icon/chevron_right.png"
   },
   {
     "name": "Popular Dishes",
-    "icon": "/FitPeo/src/assets/icon/popular-dishes.png",
-    "detail": "/FitPeo/src/assets/icon/chevron_right.png"
+    "icon": "src/icon/popular-dishes.png",
+    "detail": "src/icon/chevron_right.png"
   },
   {
     "name": "Menus",
-    "icon": "/FitPeo/src/assets/icon/total-revenue.png",
-    "detail": "/FitPeo/src/assets/icon/chevron_right.png"
+    "icon": "src/icon/total-revenue.png",
+    "detail": "src/icon/chevron_right.png"
   }
 ]

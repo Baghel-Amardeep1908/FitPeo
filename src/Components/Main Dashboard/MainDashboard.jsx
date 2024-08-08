@@ -21,34 +21,22 @@ const MainDashBoard = () => {
         <LeftSideBarContainer>
           <div>
             <LeftSideBardIcon
-              src="/FitPeo/src/assets/icon/main-menu.png"
+              src="src/icon/main-menu.png"
               alt=""
               style={{ paddingTop: 45, height: 30, width: 30 }}
             />
           </div>
           <LeftSideBarLowerIcon>
             <LeftSideBarMainIcon>
-              <LeftSideBardIcon src="/FitPeo/src/assets/icon/home.png" alt="" />
-              <LeftSideBardIcon
-                src="/FitPeo/src/assets/icon/growth.png"
-                alt=""
-              />
-              <LeftSideBardIcon
-                src="/FitPeo/src/assets/icon/event.png"
-                alt=""
-              />
-              <LeftSideBardIcon
-                src="/FitPeo/src/assets/icon/wallet.png"
-                alt=""
-              />
-              <LeftSideBardIcon src="/FitPeo/src/assets/icon/cart.png" alt="" />
+              <LeftSideBardIcon src="src/icon/home.png" alt="" />
+              <LeftSideBardIcon src="src/icon/growth.png" alt="" />
+              <LeftSideBardIcon src="src/icon/event.png" alt="" />
+              <LeftSideBardIcon src="src/icon/wallet.png" alt="" />
+              <LeftSideBardIcon src="src/icon/cart.png" alt="" />
             </LeftSideBarMainIcon>
 
             <div>
-              <LeftSideBardIcon
-                src="/FitPeo/src/assets/icon/logout.png"
-                alt=""
-              />
+              <LeftSideBardIcon src="src/icon/logout.png" alt="" />
             </div>
           </LeftSideBarLowerIcon>
         </LeftSideBarContainer>
@@ -68,14 +56,14 @@ const MainDashBoard = () => {
               />
 
               <LeftSideBardIcon
-                src="/FitPeo/src/assets/icon/search.png"
+                src="src/icon/search.png"
                 alt=""
                 style={{ position: "absolute", left: "15%", bottom: "20%" }}
               />
             </div>
             <div style={{ display: "flex", gap: 25, paddingRight: 20 }}>
               <LeftSideBardIcon
-                src="/FitPeo/src/assets/icon/mail.png"
+                src="src/icon/mail.png"
                 alt=""
                 style={{
                   padding: 10,
@@ -84,7 +72,7 @@ const MainDashBoard = () => {
                 }}
               />
               <LeftSideBardIcon
-                src="/FitPeo/src/assets/icon/settings.png"
+                src="src/icon/settings.png"
                 alt=""
                 style={{
                   padding: 10,
@@ -93,7 +81,7 @@ const MainDashBoard = () => {
                 }}
               />
               <LeftSideBardIcon
-                src="/FitPeo/src/assets/icon/notifications.png"
+                src="src/icon/notifications.png"
                 alt=""
                 style={{
                   padding: 10,

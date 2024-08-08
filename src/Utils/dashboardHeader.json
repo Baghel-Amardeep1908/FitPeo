@@ -1,24 +1,24 @@
 [
   {
-    "icon": "/FitPeo/src/assets/icon/total-order.png",
+    "icon": "src/icon/total-order.png",
     "name": "Total Orders",
     "count": 75,
     "growth": 3
   },
   {
-    "icon": "/FitPeo/src/assets/icon/delivered-order.png",
+    "icon": "src/icon/delivered-order.png",
     "name": "Total Delivered",
     "count": 70,
     "growth": -3
   },
   {
-    "icon": "/FitPeo/src/assets/icon/cancelled-order.png",
+    "icon": "src/icon/cancelled-order.png",
     "name": "Total Cancelled",
     "count": 5,
     "growth": 3
   },
   {
-    "icon": "/FitPeo/src/assets/icon/total-revenue.png",
+    "icon": "src/icon/total-revenue.png",
     "name": "Total Revenue",
     "count": "$12k",
     "growth": -3
