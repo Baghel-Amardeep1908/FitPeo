@@ -28,8 +28,7 @@ const MainDashBoard = () => {
           </div>
           <LeftSideBarLowerIcon>
             <LeftSideBarMainIcon>
-              {/* <LeftSideBardIcon src="/FitPeo/src/assets/icon/home.png" alt="" /> */}
-              <span class="material-symbols-outlined">home</span>
+              <LeftSideBardIcon src="/FitPeo/src/assets/icon/home.png" alt="" />
               <LeftSideBardIcon
                 src="/FitPeo/src/assets/icon/growth.png"
                 alt=""
@@ -68,17 +67,11 @@ const MainDashBoard = () => {
                 }}
               />
 
-              {/* <LeftSideBardIcon
+              <LeftSideBardIcon
                 src="/FitPeo/src/assets/icon/search.png"
                 alt=""
                 style={{ position: "absolute", left: "15%", bottom: "20%" }}
-              /> */}
-              <span
-                class="material-symbols-outlined"
-                style={{ position: "absolute", left: "15%", bottom: "20%" }}
-              >
-                search
-              </span>
+              />
             </div>
             <div style={{ display: "flex", gap: 25, paddingRight: 20 }}>
               <LeftSideBardIcon
